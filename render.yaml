@@ -2,13 +2,14 @@ databases:
   - name: myrailssite
     databaseName: myrailssite
     user: myrailssite
-
+previewsEnabled: true
 services:
   - type: web
     name: myrailssite
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
+    afterFirstDeployCommand: ./afdc.sh
     envVars:
       - key: DATABASE_URL
         fromDatabase:
