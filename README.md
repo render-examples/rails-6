@@ -6,7 +6,7 @@ The sample app is deployed at https://rails.onrender.com.
 
 ## Deployment on Render
 
-Fork the repo and use the button below to deploy this app with one click.
+Fork the repo and use the button below to deploy this app one click.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
