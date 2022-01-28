@@ -1,3 +1,5 @@
+previewsEnabled: true
+
 databases:
   - name: myrailssite
     databaseName: myrailssite
@@ -16,3 +18,6 @@ services:
           property: connectionString
       - key: SECRET_KEY_BASE
         generateValue: true
+    domains:
+      - one.heyhey.co.uk
+      - two.heyhey.co.uk
