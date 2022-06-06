@@ -1,8 +1,8 @@
-# Deploy a Ruby on Rails App on Render
+# Deploy a Ruby on Rails 6 App on Render
 
-This is a sample [Ruby on Rails](https://rubyonrails.org/) app set up to work with on Render.
+> :warning: We will no longer be updating this repo. Check out the [Rails 7](https://github.com/render-examples/rails-7) for the latest version.
 
-The sample app is deployed at https://rails.onrender.com.
+This is a sample [Ruby on Rails 6](https://rubyonrails.org/) app set up to work with on Render.
 
 ## Deployment on Render
 
