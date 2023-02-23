@@ -52,3 +52,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'psych', '< 4' # Locked to version < 4 due to https://bugs.ruby-lang.org/issues/17866
