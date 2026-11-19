@@ -7,10 +7,14 @@
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "^5.4.0",
     "bootstrap": "^4.5.0",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "compression-webpack-plugin": "6.1.2"
   },
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.2"
+  },
+  "resolutions": {
+    "webpack": "4.47.0"
   }
 }
